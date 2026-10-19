@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/lsb-banner.png" alt="LSB: Lilith Scenario Builder" width="100%">
+  <img src="assets/54AA001F-0C48-4A2B-9828-C1C53835A6E4.png" alt="LSB: Lilith Scenario Builder" width="100%">
 </p>
 
 # LSB: Lilith Scenario Builder
