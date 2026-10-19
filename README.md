@@ -19,8 +19,8 @@
 
 Choose what works for your AI assistant:
 
-- **[Instructions (.txt)](LILITH_SCENARIO_INSTRUCTIONS.txt)** — the complete specification, usable as reference material.
-- **[Skill package (.zip)](LILITH_SCENARIO_BUILDER_v1.0.zip)** — the reusable skill, examples, and validation utilities for skill-compatible setups.
+- **[Instructions (.txt)](skill/LILITH_SCENARIO_INSTRUCTIONS.txt)** — the complete specification, usable as reference material.
+- **[Skill package (.zip)](skill/LILITH_SCENARIO_BUILDER_v1.0.zip)** — the reusable skill, examples, and validation utilities for skill-compatible setups.
 
 Then try a prompt like:
 
