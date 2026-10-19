@@ -1,0 +1,37 @@
+[
+  {
+    "keys": "Mira Collins,Mira",
+    "value": "Mira Collins — First Name: Mira; Last Name: Collins; Age: 27; Gender: Female; Pronouns: she/her. Appearance: Tall, lean, wavy brown hair, green eyes, narrow silver ring. Personality: Observant, skeptical, patient when discussing systems, guarded about her family. Role: Blackwood Station's night-shift supervisor. Relationships: Daniel Reed is her childhood friend; she distrusts Greyline Maintenance's records. Goal: Keep the station functioning while understanding the missing manifests. Secret (not known to player at start): She found a dated closure notice that contradicts the current timetable.",
+    "type": "Character",
+    "title": "Mira Collins",
+    "description": "Night-shift supervisor; key opening NPC."
+  },
+  {
+    "keys": "Blackwood Station,Blackwood railway station",
+    "value": "Name: Blackwood Station. Type: Small-town railway terminal. Region/Setting: The eastern edge of present-day Blackwood. Appearance/Atmosphere: Wet brick platforms, aging green signs, echoing passageways. Key Features: Two passenger platforms, an unused freight gate, the staff office, and a locked records room. Access/Social Rules: Staff-only doors require keys; visiting passengers may use the concourse and platforms during service hours. The freight gate has been sealed since the Night Line Closure.",
+    "type": "Location",
+    "title": "Blackwood Station",
+    "description": "Primary setting and first scene location."
+  },
+  {
+    "keys": "Copper Gate Key,freight gate key",
+    "value": "Name: Copper Gate Key. Type: Physical station key. Appearance: Worn brass-colored key with a red fiber tag stamped FG-2. Function: Opens the freight gate's exterior padlock. Limits/Cost: It does not open the records room and provides no automatic access to documents. Ownership/Location: Kept in the station office; Mira Collins signs it out under staff procedure. The key is mundane, not supernatural.",
+    "type": "Item",
+    "title": "Copper Gate Key",
+    "description": "Access item; not a magical key."
+  },
+  {
+    "keys": "Greyline Maintenance,Greyline",
+    "value": "Name: Greyline Maintenance. Type: Regional railway maintenance contractor. Goal: Retain the Blackwood Station maintenance contract and avoid penalties for unresolved work orders. Organization/Leader: Regional dispatcher Oliver Shaw manages local assignments; the company operates under a larger central office. Methods: Logging inspections, scheduling crews, and controlling access to technical reports. Key Relationships: Contracts with the railway operator; occasionally clashes with station supervisor Mira Collins. No individual employee is automatically guilty of misconduct.",
+    "type": "Faction",
+    "title": "Greyline Maintenance",
+    "description": "Regional contractor with potentially relevant records."
+  },
+  {
+    "keys": "Night Line Closure,closed night line",
+    "value": "Name: Night Line Closure. Definition: The late freight service through Blackwood Station was officially suspended six months before the scenario begins. Scope: This closure affects freight operations, not the daytime passenger timetable. Constraints/Consequences: The freight gate is generally unused; old work orders and closure records may have errors or omissions. Observable Effects: Faded departure boards and intermittent maintenance visits. The closure alone does not prove sabotage or a conspiracy.",
+    "type": "Lore",
+    "title": "Night Line Closure",
+    "description": "Persistent, setting-specific historical event."
+  }
+]

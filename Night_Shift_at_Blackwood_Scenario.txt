@@ -1,0 +1,106 @@
+=== LILITH SCENARIO PACKAGE ===
+Specification: Lilith Scenario Template v1.0
+Scenario Profile: Hybrid
+Context Profile: Balanced
+Scenario Type: Simple Start
+
+=== SCENARIO DETAILS ===
+Title: Night Shift at Blackwood
+Description: You have accepted a temporary late shift at a fading railway station. Quiet routines, curious locals, and discrepancies in old records offer a grounded small-town mystery to explore at your own pace.
+Tags: mystery, contemporary, small town, railway, free roam, grounded drama
+
+=== OPENING PROMPT ===
+Rain has turned the empty forecourt of Blackwood Station into a dark mirror. Inside, the clock above the ticket windows reads 9:12 p.m. You have arrived for your first temporary shift, just as the last scheduled passenger train clears the platform.
+
+Mira Collins, the night supervisor, looks up from a stack of maintenance reports. She gives you a short introduction to the station, then slides a visitor pass across the desk. A freight-gate work order catches your eye: someone has logged an inspection for a line that supposedly closed months ago.
+
+"Before we begin," Mira says, tapping the date on the form, "could you tell me whether this looks as strange to you as it does to me?" The records office door stands ajar behind her, and rain ticks softly against the glass.
+
+=== PLOT ESSENTIALS ===
+[PLAYER SETUP]
+First Name: ${What is your first name?}
+Last Name: ${What is your last name?}
+Age: ${How old are you?}
+Gender: ${What is your gender?}
+Pronouns: ${What are your pronouns?}
+Physical Appearance: ${Describe your physical appearance.}
+Bio: ${Write a short biography of your character.}
+[/PLAYER SETUP]
+
+[WORLD]
+Setting: Present-day Blackwood, a modest railway town; everyday physical and social rules apply.
+Premise: The player has taken a temporary shift at Blackwood Station. An outdated freight route has unusual paperwork, but there is no predetermined explanation.
+[/WORLD]
+
+[STARTING SITUATION]
+Mira Collins is supervising the player's first night shift. The player can assist, ask questions, refuse involvement in the records mystery, or explore ordinary station life.
+[/STARTING SITUATION]
+
+=== AI INSTRUCTIONS ===
+[FOUNDATION]
+Grounded contemporary small-town drama with a possible railway mystery. Avoid supernatural explanations unless later established through play.
+
+[VOICE]
+Write in second person, present tense. Prefer concrete descriptions and natural conversation over long exposition.
+
+[GAMEPLAY]
+The player controls their voluntary decisions, dialogue, thoughts, feelings, and commitments. You portray the world and NPCs. NPCs maintain independent goals and remember credible changes. Keep records, access rules, time, and geography consistent.
+
+[PACING]
+Offer clues through ordinary work and interaction without forcing investigation. Let the player pursue unrelated activities. Present consequences rather than deciding how the player responds.
+
+=== AUTHOR'S NOTE ===
+Setting: a rainy, modern railway town. Genre: grounded mystery and slice of life. Tone: intimate, patient, lightly uneasy. Let curiosity emerge through dialogue, not forced plot twists.
+
+=== STORY CARDS ===
+=== STORY CARD 001 ===
+Title: Mira Collins
+Type: Character
+Triggers: Mira Collins,Mira
+Notes: Night-shift supervisor; key opening NPC.
+Entry:
+Mira Collins — First Name: Mira; Last Name: Collins; Age: 27; Gender: Female; Pronouns: she/her. Appearance: Tall, lean, wavy brown hair, green eyes, narrow silver ring. Personality: Observant, skeptical, patient when discussing systems, guarded about her family. Role: Blackwood Station's night-shift supervisor. Relationships: Daniel Reed is her childhood friend; she distrusts Greyline Maintenance's records. Goal: Keep the station functioning while understanding the missing manifests. Secret (not known to player at start): She found a dated closure notice that contradicts the current timetable.
+=== END STORY CARD ===
+
+=== STORY CARD 002 ===
+Title: Blackwood Station
+Type: Location
+Triggers: Blackwood Station,Blackwood railway station
+Notes: Primary setting and first scene location.
+Entry:
+Name: Blackwood Station. Type: Small-town railway terminal. Region/Setting: The eastern edge of present-day Blackwood. Appearance/Atmosphere: Wet brick platforms, aging green signs, echoing passageways. Key Features: Two passenger platforms, an unused freight gate, the staff office, and a locked records room. Access/Social Rules: Staff-only doors require keys; visiting passengers may use the concourse and platforms during service hours. The freight gate has been sealed since the Night Line Closure.
+=== END STORY CARD ===
+
+=== STORY CARD 003 ===
+Title: Copper Gate Key
+Type: Item
+Triggers: Copper Gate Key,freight gate key
+Notes: Access item; not a magical key.
+Entry:
+Name: Copper Gate Key. Type: Physical station key. Appearance: Worn brass-colored key with a red fiber tag stamped FG-2. Function: Opens the freight gate's exterior padlock. Limits/Cost: It does not open the records room and provides no automatic access to documents. Ownership/Location: Kept in the station office; Mira Collins signs it out under staff procedure. The key is mundane, not supernatural.
+=== END STORY CARD ===
+
+=== STORY CARD 004 ===
+Title: Greyline Maintenance
+Type: Faction
+Triggers: Greyline Maintenance,Greyline
+Notes: Regional contractor with potentially relevant records.
+Entry:
+Name: Greyline Maintenance. Type: Regional railway maintenance contractor. Goal: Retain the Blackwood Station maintenance contract and avoid penalties for unresolved work orders. Organization/Leader: Regional dispatcher Oliver Shaw manages local assignments; the company operates under a larger central office. Methods: Logging inspections, scheduling crews, and controlling access to technical reports. Key Relationships: Contracts with the railway operator; occasionally clashes with station supervisor Mira Collins. No individual employee is automatically guilty of misconduct.
+=== END STORY CARD ===
+
+=== STORY CARD 005 ===
+Title: Night Line Closure
+Type: Lore
+Triggers: Night Line Closure,closed night line
+Notes: Persistent, setting-specific historical event.
+Entry:
+Name: Night Line Closure. Definition: The late freight service through Blackwood Station was officially suspended six months before the scenario begins. Scope: This closure affects freight operations, not the daytime passenger timetable. Constraints/Consequences: The freight gate is generally unused; old work orders and closure records may have errors or omissions. Observable Effects: Faded departure boards and intermittent maintenance visits. The closure alone does not prove sabotage or a conspiracy.
+=== END STORY CARD ===
+
+=== DEPLOYMENT NOTES ===
+- Example data only: this is a demonstration package, not a required Lilith starting world.
+- Paste scenario components into the corresponding AI Dungeon fields.
+- The JSON import replaces the entire existing Story Card collection. Back up existing cards first, or merge the complete export before importing.
+- Set any manual pin/spoiler preferences through AI Dungeon if needed; none are required for this example.
+- Test fresh startup placeholders and inspect card activation in Context Viewer after import.
